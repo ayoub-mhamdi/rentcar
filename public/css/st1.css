@@ -1,0 +1,417 @@
+
+.searchCli{
+	margin-top:22px;
+}
+.searCliText
+{
+	margin-top:7px;
+}
+.mytable
+{
+	width:100%;
+	background-color:white;
+}
+.mytable tr th
+{
+	height:40px !important;
+	background-color:#3993b6;
+	color:white;
+	text-align:center;
+}
+.mytable tr td
+{
+	border-bottom:2px solid #b4b4b4;
+	text-align:center;
+	height:100px;
+}
+.selSear
+{
+	width:350px;
+	height:40px;
+	color:#b4b4b4;
+	font-weight:bold;
+}
+.selSear option
+{
+	width:350px;
+	height:40px;
+	color:black;
+	font-weight:bold;
+}
+.txtSearC
+{
+	width:200px;
+	height:40px;
+
+    margin-right: 40px;
+}
+.searC
+{
+	padding-right:30px;
+}
+.search-box
+{
+	display:inline-flex;
+	width:300px;
+	height:40px;
+}
+/*Accueil */
+.home_image_one {
+
+    background-image:url("../img/GestVoi.png");
+top:0;   left:0;  position:fixed; width:50%; height:50%
+}
+.home_image_two {
+
+    background: url("../img/GestParc.png");
+top:0;   left:50%;  position:fixed; width:50%; height:50%
+}
+.home_image_one1 {
+
+    background: url("../img/GestCli.png");
+top:50%; left:0;   position:fixed; width:50%; height:50%
+}
+.home_image_two1 {
+    background: url("../img/GestLoc.png") ;
+top:50%; left:50%;  position:fixed; width:50%; height:50%
+}
+
+
+/*.menu i,b
+{
+	color:white;
+}
+*/
+
+/*model1*/
+
+
+
+
+
+.spn
+{
+	height:30px;
+	width:100px;
+	padding-top:5px;
+	background-color:#DCDCDC;
+	font-weight:bold;
+	color:gray;
+	padding-left:10px;
+}
+.txtmod
+{
+	height:30px;
+	border:2px solid #DCDCDC;
+	width:250px;
+}
+
+/*ayoub*/
+.modal .mytable
+{
+	width:100%;
+	background-color:white;
+}
+.modal .mytable tr th
+{
+	height:40px !important;
+	background-color:#3993b6;
+	color:white;
+	text-align:center;
+}
+.modal .mytable tr td
+{
+	border-bottom:2px solid #b4b4b4;
+	text-align:center;
+	height:20px;
+}
+
+
+
+
+
+
+/* --------------------
+:: 4.0 Wellcome Area CSS 
+-------------------- */
+
+.welcome-single-slide {
+    position: relative;
+    z-index: 1;
+    overflow: hidden
+}
+
+
+div.transbox h5 {
+   color: #005b7f;
+    font-size: 19px;
+    font-weight: bold;
+padding-top: 6%;
+
+}
+
+div.transbox {
+
+    margin: 10px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 120px;
+    height: 35px;
+    position: center;
+    margin-left: 27%;
+    cursor: pointer;
+}
+
+
+.welcome-single-slide .project_title a:hover{
+	text-decoration: none;
+}
+
+.welcome-single-slide img {
+     -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
+
+}
+
+.welcome-single-slide img:hover {
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+
+.welcome-single-slide .project_title {
+    position: absolute;
+    content: "";
+    bottom: -300px;
+    left: 0;
+    z-index: 3;
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    -webkit-transition-duration: 750ms;
+    transition-duration: 750ms;
+}
+
+.welcome-single-slide:hover .project_title {
+    bottom: 0;
+}
+.welcome-single-slide .catagory-title {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 40%;
+  
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    -webkit-transition-duration: 750ms;
+    transition-duration: 750ms;
+}
+
+.welcome-single-slide:hover .catagory-title {
+    bottom: -100px;
+}
+
+
+/* --------------------
+:: 5.0 Top Feature Area CSS 
+-------------------- */
+
+.catagory-title {
+
+   
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    border-radius: 0px;
+    left: 50%;
+    padding-bottom: 31%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+
+    font-weight:bold;
+}
+
+
+.catagory-title a > h5 {
+
+    margin-bottom: -70px;
+    line-height: 100px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    color: #f5f5f5;
+    font-size:22px;
+    font-weight:bold;
+  
+}
+
+.catagory-title a > h4 {
+    margin-bottom: -70px;
+    line-height: 100px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    color: white;
+    font-size:20px;
+
+  
+}
+
+.welcome-single-slide .catagory-title a:hover{
+	text-decoration: none;
+}
+
+/* LED */
+
+.led-box {
+  height: 80%;
+  width: 5%;
+  margin: 10px 0;
+  float: right;
+
+}
+
+.led-red {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background-color: #F00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkRed 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+
+
+
+.led-green {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background-color: #ABFF00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+   -webkit-animation: blinkGREEN 0.5s infinite;
+  -moz-animation: blinkGREEN 0.5s infinite;
+  -ms-animation: blinkGREEN 0.5s infinite;
+  -o-animation: blinkGREEN 0.5s infinite;
+  animation: blinkGREEN 0.5s infinite;
+}
+
+@-webkit-keyframes blinkGREEN {
+    from { background-color: #ABFF00; }
+    50% { background-color: #688f1b; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #13441a 0 -1px 9px, rgba(0, 255, 0, 0.5) 0 2px 0;}
+    to { background-color: #ABFF00; }
+}
+@-moz-keyframes blinkGREEN {
+    from { background-color: #ABFF00; }
+    50% { background-color: #688f1b; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #13441a 0 -1px 9px, rgba(0, 255, 0, 0.5) 0 2px 0;}
+    to { background-color: #ABFF00; }
+}
+@-ms-keyframes blinkGREEN {
+    from { background-color: #ABFF00; }
+    50% { background-color: #688f1b; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #13441a 0 -1px 9px, rgba(0, 255, 0, 0.5) 0 2px 0;}
+    to { background-color: #ABFF00; }
+}
+@-o-keyframes blinkGREEN {
+    from { background-color: #ABFF00; }
+    50% { background-color: #688f1b; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #13441a 0 -1px 9px, rgba(0, 255, 0, 0.5) 0 2px 0;}
+    to { background-color: #ABFF00; }
+}
+@keyframes blinkGREEN {
+    from { background-color: #ABFF00; }
+    50% { background-color: #688f1b; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #13441a 0 -1px 9px, rgba(0, 255, 0, 0.5) 0 2px 0;}
+    to { background-color: #ABFF00; }
+}
+
+
+th,td {
+  font-size: 18px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: #778899;
+    cursor: inherit;
+    display: block;
+}
+
+
+#voitureImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    cursor: zoom-in;
+}
+
+#voitureImg:hover {opacity: 0.7;}
+
+
+.wifi{
+    padding-right: 90px;
+}
+
+
+
+/*
+.table-striped tr {
+width: 100%;
+display: inline-table;
+}
+
+.table-striped table{
+ height:100px; 
+}
+.table-striped tbody{
+  overflow-y: scroll;
+  height: 200px;
+  width: 80%;
+  position: absolute;
+}
+*/
